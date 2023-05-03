@@ -59,7 +59,11 @@ Utilizamos o [RaspAP](https://raspap.com/) como apoio para configurar o ponto de
 
 * No terminal do Armbian, execute como `root` o script [`install-hotspot.sh`](/install-hotspot.sh).
 ```
-root@rk322x-box:~# bash install.sh
+root@rk322x-box:~# curl -sL https://github.com/lizier/projeto-tvbox/raw/main/tx9-fake-hotspot/install-hotspot.sh | bash
+```
+ou, se o script já estiver na tvbox,
+```
+root@rk322x-box:~# bash install-hotspot.sh
 ```
 
 * Reinicie a tvbox e veja se a rede `compartilhada` aparece disponível. Esta rede criada por padrão é aberta e compartilha a internet disponível pelo cabo ethernet. Caso deseja alterar qualquer configuração, como por exemplo, colocar uma senha na rede WiFi compartilhada, veja a [documentação](https://docs.raspap.com/) do RaspAP. O acesso a página de configuração está disponível no endereço [`192.168.1.1`](http://192.168.1.1), acessando por um dispositivo conectado na rede `compartilhada`.
