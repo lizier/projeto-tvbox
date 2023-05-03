@@ -8,8 +8,8 @@
     - ...
     - Senha root: *user1234*
     - Usuário padrão: *user* com a senha *user1234*
-2. Executar como *root* o script [**install.sh**](/gambi-temporaria/install.sh)
+2. Executar como *root* o script [**install-wifi.sh**](/gambi-temporaria/install-wifi.sh)
   
-     ``` root@rk322x-box:~# bash install.sh ```
+     ``` root@rk322x-box:~# bash install-wifi.sh ```
   
 3. Reiniciar
