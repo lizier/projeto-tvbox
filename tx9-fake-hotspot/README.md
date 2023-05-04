@@ -46,6 +46,7 @@ Faça a instalação pelo multitool. Recomendamos a instalação sem monitor e t
 
 * Instruções
 * Fotos do passo a passo.
+* Incluir: procura pela rede : sudo nmap -p 22 -sS 192.168.10.0/24
 
 ### Instalação do Armbian
 
@@ -53,6 +54,7 @@ Faça a instalação do Armbian. Recomendamos a instalação sem monitor e tecla
 
 * Instruções
 * Fotos do passo a passo.
+* Incluir: Senha padrão do armbian: 1234
 
 ## Instalação e configuração do WiFi e do ponto de acesso
 
