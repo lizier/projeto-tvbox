@@ -7,7 +7,9 @@
 
 apt update
 
-apt-get -y install dhcpcd5 lighttpd git hostapd dnsmasq iptables-persistent vnstat qrencode php-cgi iw net-tools lighttpd-enable-mod fastcgi-php    
+apt-get -y install dhcpcd5 lighttpd git hostapd dnsmasq iptables-persistent vnstat qrencode php-cgi iw net-tools
+
+lighttpd-enable-mod fastcgi-php    
 
 service lighttpd force-reload
 
