@@ -7,8 +7,7 @@
 
 apt update
 
-apt-get -y install dhcpcd5 lighttpd git hostapd dnsmasq iptables-persistent vnstat qrencode php-cgi iw net-tools
-lighttpd-enable-mod fastcgi-php    
+apt-get -y install dhcpcd5 lighttpd git hostapd dnsmasq iptables-persistent vnstat qrencode php-cgi iw net-tools lighttpd-enable-mod fastcgi-php    
 
 service lighttpd force-reload
 
@@ -32,6 +31,7 @@ awk "{gsub(\"/REPLACE_ME\",\"$HTROOT\")}1" $CONFSRC > /tmp/50-raspap-router.conf
 cp /tmp/50-raspap-router.conf /etc/lighttpd/conf-available/
 
 ln -s /etc/lighttpd/conf-available/50-raspap-router.conf /etc/lighttpd/conf-enabled/50-raspap-router.conf
+
 systemctl restart lighttpd.service
 
 cp /var/www/html/installers/raspap.sudoers /etc/sudoers.d/090_raspap
