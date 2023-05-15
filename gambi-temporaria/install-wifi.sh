@@ -15,4 +15,5 @@ echo "#!/bin/bash" > /root/wifi.sh
 echo "[[ -n \$(grep led-conf5 /boot/armbianEnv.txt) ]] && { sed -i 's/led-conf5/led-conf4/' /boot/armbianEnv.txt; sleep 5s; reboot; } || { sed -i 's/led-conf4/led-conf5/' /boot/armbianEnv.txt; }" >> /root/wifi.sh
 chmod +x /root/wifi.sh
 # Finished!
+sync; sync; sync;
 echo "Reboot your system."
