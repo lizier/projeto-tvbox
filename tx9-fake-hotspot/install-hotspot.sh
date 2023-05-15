@@ -92,4 +92,6 @@ systemctl unmask hostapd.service
 systemctl enable hostapd.service
 
 # Finished!
+sync; sync; sync;
+
 echo "Reboot your system."
