@@ -91,6 +91,8 @@ root@rk322x-box:~# bash install-hotspot.sh
 
 * Reinicie a tvbox e veja se a rede `rasp-webgui` aparece disponível. Esta rede criada por padrão tem a senha `ChangeMe` e compartilha a internet disponível pelo cabo ethernet. Caso deseja alterar qualquer configuração, como por exemplo, colocar uma senha na rede WiFi compartilhada, veja a [documentação](https://docs.raspap.com/) do RaspAP. O acesso a página de configuração está disponível no endereço [`10.3.141.1`](http://10.3.141.1), acessando por um dispositivo conectado na rede `rasp-webgui`, ou pelo próprio IP da tvbox. O login da página de configuração é `admin` e senha `secret`.
 
+* OBS: Tive que desligar e ligar novamente!
+
 
 
 ## Agradecimentos
