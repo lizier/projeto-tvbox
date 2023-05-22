@@ -80,7 +80,7 @@ root@rk322x-box:~# dmesg | grep ssv
 
 Utilizamos o [RaspAP](https://raspap.com/) como apoio para configurar o ponto de acesso. Você até pode seguir a instalação manual sugerida em [link](https://docs.raspap.com/manual/), mas recomendamos que tente primeiro o nosso script. Este script tentará instalar e já configurar automaticamente um ponto de acesso padrão. A instalação automática da própria documentação do RaspAP não suporta esta versão do Armbian.
 
-* No terminal do Armbian, execute como `root` o script [`install-hotspot.sh`](/install-hotspot.sh).
+* No terminal do Armbian, execute como `root` o script [`install-hotspot.sh`](./install-hotspot.sh).
 ```
 root@rk322x-box:~# curl -sL https://github.com/lizier/projeto-tvbox/raw/main/tx9-fake-hotspot/install-hotspot.sh | bash
 ```
