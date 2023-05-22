@@ -64,16 +64,16 @@ Por padrão não conseguimos reconhecer o WiFi diretamente, esta detecção auto
 
 * No terminal do Armbian, execute como `root` o script [`install-wifi.sh`](../gambi-temporaria/install-wifi.sh).
 ```
-root@rk322x-box:~# curl -sL https://github.com/lizier/projeto-tvbox/raw/main/gambi-temporaria/install-wifi.sh | bash
+curl -sL https://github.com/lizier/projeto-tvbox/raw/main/gambi-temporaria/install-wifi.sh | bash
 ```
 ou, se o script já estiver na tvbox,
 ```
-root@rk322x-box:~# bash install-wifi.sh
+bash install-wifi.sh
 ```
 
 *  Reinicie a tvbox e se quiser verificar a habilitação do WiFi, execute:
 ```
-root@rk322x-box:~# dmesg | grep ssv
+dmesg | grep ssv
 ```
 
 ### RaspAP
@@ -82,11 +82,11 @@ Utilizamos o [RaspAP](https://raspap.com/) como apoio para configurar o ponto de
 
 * No terminal do Armbian, execute como `root` o script [`install-hotspot.sh`](./install-hotspot.sh).
 ```
-root@rk322x-box:~# curl -sL https://github.com/lizier/projeto-tvbox/raw/main/tx9-fake-hotspot/install-hotspot.sh | bash
+curl -sL https://github.com/lizier/projeto-tvbox/raw/main/tx9-fake-hotspot/install-hotspot.sh | bash
 ```
 ou, se o script já estiver na tvbox,
 ```
-root@rk322x-box:~# bash install-hotspot.sh
+bash install-hotspot.sh
 ```
 
 * Reinicie a tvbox e veja se a rede `rasp-webgui` aparece disponível. Esta rede criada por padrão tem a senha `ChangeMe` e compartilha a internet disponível pelo cabo ethernet. Caso deseja alterar qualquer configuração, como por exemplo, colocar uma senha na rede WiFi compartilhada, veja a [documentação](https://docs.raspap.com/) do RaspAP. O acesso a página de configuração está disponível no endereço [`10.3.141.1`](http://10.3.141.1), acessando por um dispositivo conectado na rede `rasp-webgui`, ou pelo próprio IP da tvbox. O login da página de configuração é `admin` e senha `secret`.
