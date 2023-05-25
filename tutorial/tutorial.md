@@ -44,7 +44,7 @@ Lista de material utilizado:
     chmod +x balenaEtcher-*-x64.AppImage
     ```
     Com o balenaEtcher aberto, escolha o arquivo do multitool em `Flash from file` e depois a mídia que será usada em `Select Target` (no nosso caso o cartão microSD), por fim, basta clicar em `Flash`.
-    ![balenaetcher.png](https://github.com/lizier/projeto-tvbox/blob/main/tx9-fake-hotspot/imagens/balenaetcher.png)
+    
     * No cartão microSD haverá uma partição chamada `MULTITOOL`, abra ela e copie o Armbian para dentro da pasta `images`, sem descompactar o arquivo.
     * Desmonte adequadamente o cartão e insira na tvbox desligada.
     * Ligue a tvbox com o cartão microSD inserido e siga os passos a seguir.
