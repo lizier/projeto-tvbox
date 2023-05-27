@@ -8,7 +8,7 @@ Repositório do Projeto de Extensão da UFSCar-Sorocaba sobre TVBox
 
 ## Contatos:
 * Mario ( lizier _at_ ufscar _dot_ br )
-* Yeda ( yeda _at_ ufscar _dot br )
+* Yeda ( yeda _at_ ufscar _dot_ br )
 
 
 
