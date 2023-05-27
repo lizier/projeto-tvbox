@@ -2,12 +2,17 @@
 Repositório do Projeto de Extensão da UFSCar-Sorocaba sobre TVBox
 
 
-*Configurações padrões*
+## Modelos recebidos
+* Tx9 - Tutorial de instalação ( [Versão 0](./tx9-fake-hotspot/README.md), [*Working in progress*](./tutorial/tutorial.md))
 
-Usuário: user/root
 
-Senha: user1234
+## Contatos:
+* Mario ( lizier _at_ ufscar _dot_ br )
+* Yeda ( yeda _at_ ufscar _dot br )
 
+
+
+## Links úteis
 
 *Tópico da comunidade do Armbian sobre o RK322X*
 https://forum.armbian.com/topic/12656-csc-armbian-for-rk322x-tv-boxes/
