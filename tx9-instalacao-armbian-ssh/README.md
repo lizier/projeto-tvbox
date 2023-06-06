@@ -24,7 +24,7 @@ Lista de material utilizado:
     CPU part	: 0xc07
     CPU revision	: 5
     ```
-  ![foto_tvbox_aberta.jpeg](https://github.com/lizier/projeto-tvbox/blob/main/tutorial/foto_tvbox_aberta.jpeg)
+  ![foto_tvbox_aberta.jpeg](./files/fotos_TVBox/foto_tvbox_aberta.jpeg)
   
 * Cartão de memória microSD
 * Cabo de rede Ethernet
@@ -58,10 +58,10 @@ Para instalar e usar o Armbian usando shh, é necessário ter instalado em seu s
 Faço os passos a seguir caso deseje usar ssh (o recomendado):
 * Conecte um lado do cabo de rede ao roteador, e o outro na tv-box.
 * Use o comando `ip address` para descobrir o ip da sua máquina. Ele é informado após a palavra `inet` na seção da interface de rede que você está usando, caso esteja usando wifi normalmente a interface tem o nome iniciado com a letra `w`, como `wlan0`, e caso esteja usando cabo de rede Ethernet normalmente a interface tem o nome iniciado com a letra `e`, como `eth0`. No exemplo da imagem as interface wifi e Ethernet são, respectivamente, `wlp4s0` e `enp6s0f0`.
-![ipaddress_sublinhado.png](https://github.com/lizier/projeto-tvbox/blob/main/tutorial/ipadress_sublinhado.png)
+![ipaddress_sublinhado.png](./files/ipadress_sublinhado.png)
 
 * Use o comando `sudo nmap -p 22 -sS <ip_da_sua_máquina>` seguido do ip de sua máquina para scanear todos dispositivos conectados à internet, e assim descobrir o ip da tv-box. Essa pode ser uma primeira visão que você terá depois de rodar o comando, o que muda são os dispositivos que estão na sua rede:
-![nmap.png](https://github.com/lizier/projeto-tvbox/blob/main/tutorial/nmap.png)
+![nmap.png](./files/nmap.png)
 
     Todos os dispositivos conectados à rede aparecem nesse comando, por isso você precisa procurar onde que sua TV Box está listada.
 * 
@@ -71,46 +71,46 @@ Faço os passos a seguir caso deseje usar ssh (o recomendado):
     * Você pode desconectar a TV Box da rede, e rodar o comando, anotar todos os IPs nos quais o fim do MAC Address é `(Unknown)`, depois reconectar a TV Box e procurar por um IP que não estava antes na rede conforme as duas primeiras dicas.
     * 
 * Seguindo essas dicas, encontramos o IP da nossa TV Box (200.8.84.66), conforme ilustrado abaixo. Mas o IP da sua vai ser diferente do nosso.
-![nmap_tvbox.png](https://github.com/lizier/projeto-tvbox/blob/main/tutorial/nmap_tvbox.png)
+![nmap_tvbox.png](./files/nmap_tvbox.png)
 
 * Use o comando `ssh root@<ip_da_sua_tv-box>`, onde no lugar de <ip_da_sua_tv-box> deve ser usado o ip encontrado usando o nmap, para poder acessá-la.
-![ssh1.png](https://github.com/lizier/projeto-tvbox/blob/main/tutorial/ssh1.png)
+![ssh1.png](./files/ssh1.png)
 
 * Após acessar a tv-box, utilize o comando `multitool.sh`, e faça os passos a seguir.
-![ssh2.png](https://github.com/lizier/projeto-tvbox/blob/main/tutorial/ssh2.png)
+![ssh2.png](./files/ssh2.png)
 
 Após fazer os passos anteriores, ou pulados caso não esteja usando ssh, cairemos na seguinte tela:
-![multitool.png](https://github.com/lizier/projeto-tvbox/blob/main/tx9-fake-hotspot/imagens/multitool.png)
+![multitool.png](./files/multitool.png)
 Clique enter para prosseguir, depois:
 * Faça um backup do estado atual da tv-box, por precaução, basta teclar enter com a opção `Backup flash` selecionada.
-![multitool_backup1.png](https://github.com/lizier/projeto-tvbox/blob/main/tutorial/multitool_backup1.png)
+![multitool_backup1.png](./files/multitool_backup1.png)
 
 * Depois tecle enter novamente (com o dispositivo selecionado). O seu dispositivo pode ser diferente daquele ilustrado na imagem. Não tem problema.
-![multitool_backup2.png](https://github.com/lizier/projeto-tvbox/blob/main/tutorial/multitool_backup2.png)
+![multitool_backup2.png](./files/multitool_backup2.png)
 
 * Escolha um nome para o backup e prossiga.
-![multitool-backup3.png](https://github.com/lizier/projeto-tvbox/blob/main/tutorial/multitool-backup3.png)
+![multitool-backup3.png](./files/multitool-backup3.png)
 
 * Espere o backup terminar.
-![multitool-backup4.png](https://github.com/lizier/projeto-tvbox/blob/main/tutorial/multitool-backup4.png)
+![multitool-backup4.png](./files/multitool-backup4.png)
 
 * Com o backup pronto, vá até `Burn image to flash` com os direcionais do teclado e tecle enter. 
-![multitool-burn1.png](https://github.com/lizier/projeto-tvbox/blob/main/tutorial/multitool-burn1.png)
+![multitool-burn1.png](./files/multitool-burn1.png)
 
 * Escolha o dispositivo. Lembre-se que o nome do seu dispositivo pode ser diferente do nome do nosso. Novamente, não tem problema.
-![multitool-burn2.png](https://github.com/lizier/projeto-tvbox/blob/main/tutorial/multitool-burn2.png)
+![multitool-burn2.png](./files/multitool-burn2.png)
 
 * Selecione o arquivo da imagem, basta apertar Enter.
-![multitool-burn3.png](https://github.com/lizier/projeto-tvbox/blob/main/tutorial/multitool-burn3.png)
+![multitool-burn3.png](./files/multitool-burn3.png)
  
 * Espere a instalação ser concluída.
-![multitool-burn4.png](https://github.com/lizier/projeto-tvbox/blob/main/tutorial/multitool-burn4.png)
+![multitool-burn4.png](./files/multitool-burn4.png)
 
 * Quando a instalação terminar, prossiga, teclando Enter.
-![multitool-burn5.png](https://github.com/lizier/projeto-tvbox/blob/main/tutorial/multitool-burn5.png)
+![multitool-burn5.png](./files/multitool-burn5.png)
 
 * Por fim, desligue a máquina, indo até a opção `(9) Shutdown` e feche o terminal.
-![multitool-shutdown.png](https://github.com/lizier/projeto-tvbox/blob/main/tutorial/multitool-shutdown.png)
+![multitool-shutdown.png](./files/multitool-shutdown.png)
 
 Feito isso, siga os seguintes passos:
 1) Vá até sua TV Box e a retire da energia. Ou seja, retire o cabo redondo dela.
@@ -128,19 +128,19 @@ Agora, é necessário novamente fazer a conexão SSH. Para isso, rode o comando 
 
 Nessa etapa, pode ocorrer um erro de chave, que é caracterizado por uma mensagem similar à `WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!`. A solução é apagar a chave SSH com o comando que a própria mensagem de erro deu, ou seja, siga as instruções da mensagem de erro.
 
-![ssh_novamente2.png](https://github.com/lizier/projeto-tvbox/blob/main/tutorial/ssh_novamente2.png)
+![ssh_novamente2.png](./files/ssh_novamente2.png)
 
 Após fazer isso, o problema será resolvido.
-![ssh_novamente3.png](https://github.com/lizier/projeto-tvbox/blob/main/tutorial/ssh_novamente3.png)
+![ssh_novamente3.png](./files/ssh_novamente3.png)
 
 * Feito isso, rode o comando `ssh root@<ip_da_sua_tv-box>`. Uma senha será pedida. Digite a senha padrão do armbian: 1234.
-![ssh_novamente4.png](https://github.com/lizier/projeto-tvbox/blob/main/tutorial/ssh_novamente4.png)
+![ssh_novamente4.png](./files/ssh_novamente4.png)
 
 * Defina as senhas e os nomes de usuários. Primeiro, será pedido o `root password`.
-![instalacao1.png](https://github.com/lizier/projeto-tvbox/blob/main/tutorial/instalacao1.png)
+![instalacao1.png](./files/instalacao1.png)
 
 * Selecione o seu shell de comando padrão, no nosso caso, escolhemos (1) Shell. Por isso, apenas apertamos na tecla 1.
-![instalacao2.png](https://github.com/lizier/projeto-tvbox/blob/main/tutorial/instalacao2.png)
+![instalacao2.png](./files/instalacao2.png)
 
 * Siga as próximas instruções para criar uma nova conta de usuário. No nosso ambiente, todas as senhas são user1234 e o usuário se chama User. 
     `user: user`
@@ -148,7 +148,7 @@ Após fazer isso, o problema será resolvido.
 
 * O sistema pode ou não ter detectado seu fuso horário automaticamente. Caso não tenha, selecione as opções manualmente, seguindo o menu. Depois, selecione a língua do sistema (Português - Brasil) com base na localização.
 
-![instalacao3.png](https://github.com/lizier/projeto-tvbox/blob/main/tutorial/instalacao3.png)
+![instalacao3.png](./files/instalacao3.png)
 
 ## Instalação e configuração do WiFi e do ponto de acesso
 
@@ -164,14 +164,14 @@ ou, se o script já estiver na tvbox,
 ```
 bash install-wifi.sh
 ```
-![gambi.png.png](https://github.com/lizier/projeto-tvbox/blob/main/tutorial/gambi.png)
+![gambi.png.png](./files/gambi.png)
 
 *  Reinicie a tvbox, digitando o comando `reboot`, espere uns dois minutos e novamente se conecte à sua TV Box utilizando o IP dela. Se quiser verificar a habilitação do WiFi, execute:
 ```
 dmesg | grep ssv
 ```
 
-![gambi1.png](https://github.com/lizier/projeto-tvbox/blob/main/tutorial/gambi1.png)
+![gambi1.png](./files/gambi1.png)
 
 ### RaspAP
 
