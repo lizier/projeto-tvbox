@@ -18,12 +18,12 @@ echo "[[ -n \$(grep led-conf5 /boot/armbianEnv.txt) ]] && { sed -i 's/led-conf5/
 chmod +x /root/wifi.sh
 
 # Instalando as dependências
-apt update
-apt install dnsmasq -y
+# apt update
+# apt install dnsmasq -y
 
 # Desabilitando o serviço do dnsmasq, devido a conflito de portas, não é necessário
-systemctl stop dnsmasq
-systemctl disable dnsmasq
+# systemctl stop dnsmasq
+# systemctl disable dnsmasq
 
 # NOME DA REDE WIFI
 # SSID Naming Conventions
@@ -41,13 +41,13 @@ SSID="hotspot"
 # SENHA DA REDE WIFI
 # Enter a string of at least 8 characters to a maximum of 63 characters. Acceptable characters include upper and lower case alphabetic letters, the numeric digits, and special symbols such as @ and #.
 
-PWD="hotspot1234"
+PASSWORD="hotspot1234"
 
 # configurando o NetworkManager
 nmcli con add type wifi ifname wlan0 con-name "$SSID" autoconnect yes ssid "$SSID"
 nmcli con modify "$SSID" 802-11-wireless.mode ap 802-11-wireless.band bg ipv4.method shared
 nmcli con modify "$SSID" wifi-sec.key-mgmt wpa-psk
-nmcli con modify "$SSID" wifi-sec.psk "$PWD"
+nmcli con modify "$SSID" wifi-sec.psk "$PASSWORD"
 nmcli con up "$SSID"
 
 # Finished!
