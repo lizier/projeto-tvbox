@@ -48,7 +48,7 @@ nmcli con add type wifi ifname wlan0 con-name "$SSID" autoconnect yes ssid "$SSI
 nmcli con modify "$SSID" 802-11-wireless.mode ap 802-11-wireless.band bg ipv4.method shared
 nmcli con modify "$SSID" wifi-sec.key-mgmt wpa-psk
 nmcli con modify "$SSID" wifi-sec.psk "$PASSWORD"
-nmcli con up "$SSID"
+# nmcli con up "$SSID"
 
 # Finished!
 sync; sync; sync;
