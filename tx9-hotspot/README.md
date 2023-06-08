@@ -1,6 +1,6 @@
 # Tutorial para criar um ponto de acesso WiFi
 
-* [Armbian](https://github.com/armbian/community/), para rk322x. Utilizamos a versão cli, não é necessário e nem recomendado ter interface gráfica. IMPORTANTE: utilize o kernel 5.15!
+* [Armbian](https://github.com/armbian/community/), para rk322x. Utilizamos a versão sem ambiente gráfico. IMPORTANTE: utilize o kernel 5.15!
 
 ## Instalação e configuração do WiFi e do ponto de acesso
 
