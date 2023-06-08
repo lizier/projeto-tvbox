@@ -16,7 +16,7 @@ ou, se o script já estiver na tvbox,
 bash install.sh
 ```
 
-* Reinicie a tvbox e veja se a rede WiFi aparece disponível. Se nenhum nome ou senha for fornecido, procure pela rede padrão `hotspot` com a senha `hotspot1234`.
+* Reinicie a tvbox e veja se a rede WiFi aparece disponível. Procure pela rede `hotspot` e utilize a senha `hotspot1234`, caso os valores padrões não tenham sido alterados.
 
 ## Agradecimentos
 
