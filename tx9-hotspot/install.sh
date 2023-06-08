@@ -18,12 +18,12 @@ echo "[[ -n \$(grep led-conf5 /boot/armbianEnv.txt) ]] && { sed -i 's/led-conf5/
 chmod +x /root/wifi.sh
 
 # Instalando as dependências
-# apt update
-# apt install dnsmasq -y
+apt update
+apt install dnsmasq -y
 
 # Desabilitando o serviço do dnsmasq, devido a conflito de portas, não é necessário
-# systemctl stop dnsmasq
-# systemctl disable dnsmasq
+systemctl stop dnsmasq
+systemctl disable dnsmasq
 
 # NOME DA REDE WIFI
 # SSID Naming Conventions
