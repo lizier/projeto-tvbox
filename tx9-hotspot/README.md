@@ -5,7 +5,7 @@
 ## Instalação e configuração do WiFi e do ponto de acesso
 
 Com a instalação padrão do Armbian, não conseguimos reconhecer o WiFi diretamente, esta detecção automática ainda está em estudo. Por enquanto, forçamos a detecção ao custo de uma reinicalização.
-Durante a execução do script será necessário informar o nome da rede Wifi e a senha.
+Caso deseje alterar o nome da rede WiFi e/ou a senha, altere as variáveis `SSID` e `PASSWORD` do script. Durante a execução do script será exibida uma mensagem de erro sobre o dispositivo WiFi, pois ainda não está ativo, logo, ignore-o. Após a reunicialização a rede WiFi já deverá estar funcionando.
 
 * No terminal do Armbian, execute como `root` o script [`install.sh`](./install.sh).
 ```
