@@ -13,7 +13,7 @@ curl -sL https://github.com/lizier/projeto-tvbox/raw/main/tx9-hotspot/install.sh
 ```
 ou, se o script já estiver na tvbox,
 ```
-bash install-wifi.sh
+bash install.sh
 ```
 
 * Reinicie a tvbox e veja se a rede WiFi aparece disponível. Se nenhum nome ou senha for fornecido, procure pela rede padrão `hotspot` com a senha `hotspot1234`.
