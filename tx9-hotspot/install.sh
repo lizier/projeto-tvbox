@@ -25,7 +25,7 @@ apt install dnsmasq -y
 systemctl stop dnsmasq
 systemctl disable dnsmasq
 
-# NOME DA REDE WIFI
+# NOME DA REDE WIFI 
 # SSID Naming Conventions
 # The SSID can be any alphanumeric, case-sensitive entry from 2 to 32 characters. The printable characters plus the space (ASCII 0x20) are allowed, but these six characters are not:
 # ?, ", $, [, \, ], and +.
