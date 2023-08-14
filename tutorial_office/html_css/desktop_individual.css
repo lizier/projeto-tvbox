@@ -1,0 +1,58 @@
+#messageBody {
+  display: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+h1 {
+  color: #666666;
+}
+
+.saibaMais {
+  margin: 13px 40px 13px 20px;
+  color: #666666;
+  line-height: 40px;
+}
+
+body {
+  font-family: Roboto, Arial;
+  font-size: 15px;
+  user-select: none;
+}
+
+hr { 
+  background-color: lightgray; 
+  height: 1px; 
+  border: 0; 
+}
+
+#newCreates {
+  margin-top: 15px;
+}
+
+#newHeading {
+  margin-left: 20px;
+  margin-bottom: 5px;
+  display: none;
+}
+
+.title {
+	display: flex;
+}
+
+button {
+  color: #666666;
+  padding: 10px 15px;
+  font-size: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+button:hover {
+  background-color: rgba(20, 21, 24, 0.12);
+}
