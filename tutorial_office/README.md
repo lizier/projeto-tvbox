@@ -94,9 +94,15 @@ require(["third_party/domready/domReady!"], function () {
 Os scripts finais também estão nessa [pasta](scripts).
 
 Feito isso, vá para a pasta `views` e dentro dela insira os HTMLs:
-- [Word:](html_css/word.html)
-- [Sheet:](html_css/sheet.html)
-- [Slides:](html_css/point.html)
+- [Word](html_css/word.html)
+- [Sheet](html_css/sheet.html)
+- [Slides](html_css/point.html)
 
 E dentro da pasta `css`, coloque o arquivo
 - [CSS desktop](html_css/desktop_individual.html)
+
+Feito isso, para abrir uma das ferramentas pela linha de comando, execute o comando:
+```
+chromium chrome-extension://gbkeegbaiigmenfmjfclcdgdpimamgkj/views/sheet.html
+```
+Trocando o `sheet.html` por `point.html` ou `word.html`.
