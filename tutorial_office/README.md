@@ -106,3 +106,6 @@ Feito isso, para abrir uma das ferramentas pela linha de comando, execute o coma
 chromium chrome-extension://gbkeegbaiigmenfmjfclcdgdpimamgkj/views/sheet.html
 ```
 Trocando o `sheet.html` por `point.html` ou `word.html`.
+
+### Próxima tarefa:
+- Fazer um script que automatize esse processo.
