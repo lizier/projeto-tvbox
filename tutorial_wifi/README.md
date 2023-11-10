@@ -1,4 +1,4 @@
-#Tutorial Wifi
+# Tutorial Wifi
 
 Tutorial para conseguir habilitar o WiFi na TvBox.
 
@@ -34,9 +34,10 @@ Lista de materiais utilizados:
 
 Por padrão não conseguimos reconhecer o WiFi diretamente, esta detecção automática ainda está em estudo. Por enquanto, nossa única alternativa tem sido utilizar as alterações realizadas pelo seguinte script. Faça:
 
-* No terminal do Armbian, execute como `root` o script [`install-wifi.sh`](../gambi-temporaria/install-wifi.sh).
+* No terminal do Armbian, execute como `root` o script [`install-wifi.sh`](../assets/install-wifi.sh).
+
 ```
-curl -sL https://github.com/lizier/projeto-tvbox/raw/main/gambi-temporaria/install-wifi.sh | bash
+curl -sL https://github.com/lizier/projeto-tvbox/blob/main/tutorial_wifi/assets/install-wifi.sh| bash
 ```
 ou, se o script já estiver na tvbox,
 ```
