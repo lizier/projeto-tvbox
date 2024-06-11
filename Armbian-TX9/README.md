@@ -1,5 +1,11 @@
 ## Versão UFSCar-Sorocaba do Armbian para a TX9 - Projeto BemTeVi
 
+# [Download](https://drive.google.com/file/d/1RXTVMk07d8pVUPnz66Lop48093ZaQMXU/view?usp=sharing)
+
+
+## Instruções básicas
+
+
 ### Requisitos
 
 Lista de material utilizado:
@@ -35,7 +41,7 @@ Lista de material utilizado:
 * Faça download dos arquivos:
   * [balenaEtcher](https://www.balena.io/etcher#download-etcher)
   * [MULTITOOL](https://users.armbian.com/jock/rk322x/multitool/multitool.img.xz) ou no [drive](https://drive.google.com/file/d/1jPY6odA08TMJTT0_ecXJllbDcL3JKvuz/view?usp=drive_link)
-  * [Imagem](https://drive.google.com/file/d/1RXTVMk07d8pVUPnz66Lop48093ZaQMXU/view?usp=sharing). Montamos esta versão com o [Armbian](https://github.com/armbian/community/) para rk322x, incluindo alguns pacotes educacionais, XFCE e habilitação do Wifi. As versões utilizada do Armbian está no [drive](https://drive.google.com/drive/folders/1e4TiLbqWj8Yj2bcLT5fBhs6omHIN_e7u?usp=sharing).
+  * [Imagem](https://drive.google.com/file/d/1RXTVMk07d8pVUPnz66Lop48093ZaQMXU/view?usp=sharing). Montamos esta versão com o [Armbian](https://github.com/armbian/community/) para rk322x, incluindo alguns pacotes educacionais, XFCE e habilitação do Wifi. A versã utilizada do Armbian está no [drive](https://drive.google.com/drive/folders/1e4TiLbqWj8Yj2bcLT5fBhs6omHIN_e7u?usp=sharing).
 
 * Em seguida:
     * Abra o balenaEtcher para gravar o multitool no cartão microSD. Talvez seja necessário dar permissão de execução para o programa, para isso, dentro da pasta Downloads do seu computador use:
