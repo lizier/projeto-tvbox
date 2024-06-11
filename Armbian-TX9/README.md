@@ -1,6 +1,6 @@
-# Versão UFSCar-Sorocaba do Armbian para a TX9 - Projeto BemTeVi
+## Versão UFSCar-Sorocaba do Armbian para a TX9 - Projeto BemTeVi
 
-## Requisitos
+### Requisitos
 
 Lista de material utilizado:
 
@@ -31,10 +31,10 @@ Lista de material utilizado:
 * Leitor de cartão de memória para PC
 * Linux (utilizamos o Ubuntu 22.10)
 
-## Preparação inicial
+### Preparação inicial
 * Faça download dos arquivos:
   * [balenaEtcher](https://www.balena.io/etcher#download-etcher)
-  * [`MULTITOOL`](https://users.armbian.com/jock/rk322x/multitool/multitool.img.xz) ou no [drive](https://drive.google.com/file/d/1jPY6odA08TMJTT0_ecXJllbDcL3JKvuz/view?usp=drive_link)
+  * [MULTITOOL](https://users.armbian.com/jock/rk322x/multitool/multitool.img.xz) ou no [drive](https://drive.google.com/file/d/1jPY6odA08TMJTT0_ecXJllbDcL3JKvuz/view?usp=drive_link)
   * [Imagem](https://drive.google.com/file/d/1RXTVMk07d8pVUPnz66Lop48093ZaQMXU/view?usp=sharing). Montamos esta versão com o [Armbian](https://github.com/armbian/community/) para rk322x, incluindo alguns pacotes educacionais, XFCE e habilitação do Wifi. As versões utilizada do Armbian está no [drive](https://drive.google.com/drive/folders/1e4TiLbqWj8Yj2bcLT5fBhs6omHIN_e7u?usp=sharing).
 
 * Em seguida:
@@ -48,7 +48,7 @@ Lista de material utilizado:
     * Desmonte adequadamente o cartão e insira na tvbox desligada.
     * Ligue a tvbox com o cartão microSD inserido e siga os passos a seguir.
 
-### Instalação pelo MultiTool
+### Instalação da imagem pelo MultiTool
 
 Antes de instalar a imagem, você pode querer fazer um backup, este é o momento. 
 
@@ -70,7 +70,7 @@ Para gravar a imagem, inicialize a tvbox com o cartão microSD. Aguarde a dispon
 * Por fim, desligue a máquina, indo até a opção `(9) Shutdown` e feche o terminal.
 ![multitool-shutdown.png](./files/multitool-shutdown.png)
 
-## Agradecimentos
+### Agradecimentos
 
 * Fórum da comunidade Armbian [:link:](https://forum.armbian.com/topic/12656-csc-armbian-for-rk322x-tv-boxes/)
 * Receita Federal do Brasil [:link:](https://www.gov.br/receitafederal/pt-br)
