@@ -50,7 +50,7 @@ Lista de material utilizado:
     ```
     Com o balenaEtcher aberto, escolha o arquivo do multitool em `Flash from file` e depois a mídia que será usada em `Select Target` (no nosso caso o cartão microSD), por fim, basta clicar em `Flash`.
     
-    * No cartão microSD haverá uma partição chamada `MULTITOOL`, abra ela e copie a Imagem do Armbian para dentro da pasta `images`, sem descompactar o arquivo.
+    * No cartão microSD haverá uma partição chamada `MULTITOOL`, abra ela e copie a Imagem do Armbian para dentro da pasta `backups`, sem descompactar o arquivo.
     * Desmonte adequadamente o cartão e insira na tvbox desligada.
     * Ligue a tvbox com o cartão microSD inserido e siga os passos a seguir.
 
@@ -58,23 +58,10 @@ Lista de material utilizado:
 
 Antes de instalar a imagem, você pode querer fazer um backup, este é o momento. 
 
-Para gravar a imagem, inicialize a tvbox com o cartão microSD. Aguarde a disponibilização do terminal e inicie o `MULTITOOL` pelo comando `multitool.sh`. Quando aparecer o menu, selecione a opção `burn image to flash`.
+Para gravar a imagem, inicialize a tvbox com o cartão microSD. Aguarde a disponibilização do terminal e inicie o `MULTITOOL` pelo comando `multitool.sh`. Quando aparecer o menu, selecione a opção `restore flash`.
 ![multitool-burn3.png](./files/multitool-burn1.png)
 
-* Em seguida escolha o dispositivo (deve haver apenas um).
-![multitool-burn3.png](./files/multitool-burn2.png)
 
-* Selecione o arquivo da imagem [tx9-image-v2.gz](https://drive.google.com/file/d/1RXTVMk07d8pVUPnz66Lop48093ZaQMXU/view?usp=sharing) (diferentemente do que mostra na imagem a seguir)
-![multitool-burn3.png](./files/multitool-burn3.png)
- 
-* Espere a instalação ser concluída.
-![multitool-burn4.png](./files/multitool-burn4.png)
-
-* Quando a instalação terminar, prossiga com Enter.
-![multitool-burn5.png](./files/multitool-burn5.png)
-
-* Por fim, desligue a máquina, indo até a opção `(9) Shutdown` e feche o terminal.
-![multitool-shutdown.png](./files/multitool-shutdown.png)
 
 ### Agradecimentos
 
