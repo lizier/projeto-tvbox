@@ -32,8 +32,8 @@ Lista de material utilizado:
 
 | Recurso | `Status` |
 | :---         |     :---:      |
-| wifi | ```diff +Funcionando```}$$ - 2.4GHz |
-| hdmi | <code style="color : green">Funcionando</code> |
+| wifi | `#ff0000` Funcionando - 2.4GHz |
+| hdmi | `#ff0000` Funcionando</code> |
 | gpu | <code style="color : red">Não funciona</code> |
 | leitor de cartão | <code style="color : green">Funcionando</code> |
 | rede | <code style="color : green">Funcionando</code> - 100Mbps |
