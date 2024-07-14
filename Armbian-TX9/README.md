@@ -37,6 +37,7 @@ Lista de material utilizado:
 * Leitor de cartão de memória para PC
 * Linux (utilizamos o Ubuntu 22.10)
 * `Status` atual:
+
 | Recurso | Condição |
 | :---         |     :---:      |
 | wifi | Funcionando |

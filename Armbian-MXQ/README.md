@@ -26,6 +26,7 @@ Lista de material utilizado:
 * Leitor de cartão de memória para PC
 * Linux (utilizamos uma versão Debian bookworm)
 * `Status` atual:
+
 | Recurso | Condição |
 | :---         |     :---:      |
 | wifi | Funcionando |
