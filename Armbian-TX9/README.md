@@ -34,7 +34,7 @@ Lista de material utilizado:
 | :---         |     :---:      |
 | wifi | `#ff0000` Funcionando - 2.4GHz |
 | hdmi | `#ff0000` Funcionando</code> |
-| gpu | <code style="color : red">Não funciona</code> |
+| gpu | <span style="color : #FF0000;">Não funciona</span> |
 | leitor de cartão | <code style="color : green">Funcionando</code> |
 | rede | <code style="color : green">Funcionando</code> - 100Mbps |
 | infra-vermelho | <code style="color : green">Funcionando</code> - precisa configurar um mapeamento pelo LIRC|
