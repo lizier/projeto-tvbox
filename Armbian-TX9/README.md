@@ -20,25 +20,17 @@ Lista de material utilizado:
     * Rockchip rk3228A 4-core ARMv7
     * eMCP com 1GB de RAM e 8GB de armazenamento
     * Chipset WiFi: SSV6051P
-    ```
-    model name	: ARMv7 Processor rev 5 (v7l)
-    BogoMIPS	: 35.29
-    Features	: half thumb fastmult vfp edsp thumbee neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm 
-    CPU implementer	: 0x41
-    CPU architecture: 7
-    CPU variant	: 0x0
-    CPU part	: 0xc07
-    CPU revision	: 5
-    ```
-  ![foto_tvbox_aberta.jpeg](./files/foto_tvbox_aberta.jpeg)
-  
+    
+    |Fechada|Aberta|
+    |---|---|
+    |![foto_tvbox_fechada.jpeg](./files/foto_tvbox_fechada.jpeg)|![foto_tvbox_aberta.jpeg](./files/foto_tvbox_aberta.jpeg)|
+    
 * Cartão de memória microSD
 * Cabo de rede Ethernet ou monitor de video e teclado
 * Leitor de cartão de memória para PC
-* Linux (utilizamos o Ubuntu 22.10)
-* `Status` atual:
+* Linux (utilizamos o Ubuntu Jammy)
 
-| Recurso | Condição |
+| Recurso | `Status` |
 | :---         |     :---:      |
 | wifi | Funcionando |
 | hdmi | Funcionando |
@@ -48,12 +40,28 @@ Lista de material utilizado:
 | usb 2.0 | Funcionando |
 | saída audio | Não testada |
 | saída AV | Não testada |
+| bluetooth | 
+
+| Recurso | `Status` |
+| :---         |     :---:      |
+| wifi | {color:green}Funcionando 2.4GHz |
+| hdmi | Funcionando |
+| gpu | {color:Red} Não funciona |
+| leitor de cartão | Funcionando |
+| rede | Funcionando 100Mbps|
+| infra-vermelho | Funcionando - precisa configurar um mapeamento pelo LIRC|
+| usb 2.0 | Funcionando |
+| saída audio analógica | {color:yellow} Não testada |
+| saída AV | Não testada |
+| saída audio HDMI | Não testada |
+| bluetooth | Não funciona |
 
 ### Preparação inicial
 * Faça download dos arquivos:
   * [balenaEtcher](https://www.balena.io/etcher#download-etcher)
-  * [MULTITOOL](https://users.armbian.com/jock/rk322x/multitool/multitool.img.xz) ou no [drive](https://drive.google.com/file/d/1jPY6odA08TMJTT0_ecXJllbDcL3JKvuz/view?usp=drive_link)
-  * [Imagem](https://drive.google.com/file/d/1RXTVMk07d8pVUPnz66Lop48093ZaQMXU/view?usp=sharing). Montamos esta versão com o [Armbian](https://github.com/armbian/community/) para rk322x, incluindo alguns pacotes educacionais. A versão utilizada do Armbian está no [drive](https://drive.google.com/drive/folders/1e4TiLbqWj8Yj2bcLT5fBhs6omHIN_e7u?usp=sharing).
+  * [MULTITOOL](https://users.armbian.com/jock/rk322x/multitool/multitool.img.xz) ou no [drive](https://drive.google.com/file/d/1r1QphK06QytKCVkLkU_LETYguw1YN12T/view?usp=sharing)
+  * [Imagem](https://drive.google.com/file/d/1RXTVMk07d8pVUPnz66Lop48093ZaQMXU/view?usp=sharing). Montamos esta versão com o [Armbian](https://github.com/armbian/community/) para rk322x, incluindo alguns pacotes educacionais.
+    * A versão utilizada do Armbian está no [drive](https://drive.google.com/file/d/1ELnDEYH4rPU7GbWKcF4KAIYZtfvdjz4O/view?usp=sharing).
 
 * Em seguida:
     * Abra o balenaEtcher para gravar o multitool no cartão microSD. Talvez seja necessário dar permissão de execução para o programa, para isso, dentro da pasta Downloads do seu computador use:
