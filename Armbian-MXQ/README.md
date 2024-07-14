@@ -1,6 +1,6 @@
-## Versão UFSCar-Sorocaba do Armbian para a TX9 - Projeto BemTeVi
+## Versão UFSCar-Sorocaba do Armbian para a MXQ-PRO 5G MXQ-PRO 4K - Projeto BemTeVi
 
-# [Download](https://drive.google.com/file/d/1RXTVMk07d8pVUPnz66Lop48093ZaQMXU/view?usp=sharing)
+# [Download](https://drive.google.com)
 
 
 ## Instruções básicas
@@ -10,32 +10,21 @@
 
 Lista de material utilizado:
 
-* Tx9-fake: A versão original da Tx9 é baseada no SoC da [Amlogic](https://www.amlogic.com/), mais especificamente o [S905W](https://en.wikipedia.org/wiki/Amlogic). O lote que tivemos acesso, e portanto é o modelo utilizado neste manual, é a falsificação baseada no Soc da [Rockchip](http://www.rock-chips.com/), mais especificamente o modelo **rk3228a**.
+* MXQ-PRO-fake: A versão original da MXQ-PRO é baseada no SoC da [Amlogic](https://www.amlogic.com/), mais especificamente o [S905W](https://en.wikipedia.org/wiki/Amlogic). O lote que tivemos acesso, e portanto é o modelo utilizado neste manual, é a falsificação baseada no Soc da [Rockchip](http://www.rock-chips.com/), mais especificamente o modelo **rk3228a**.
   * Curiosidades: 
-    [link1](https://www.youtube.com/watch?v=bWcwqZfOcUI): Vídeo ensinando como identificar a diferença de um aparelho de TV Box TX9 verdadeiro do falso de uma maneira bem simples.
-    [link2](https://www.youtube.com/watch?v=nGlpigD6uoY): Um vídeo no qual uma TV Box é analisada.
-
+    [link1](https://www.youtube.com/watch?v=mR09TfH5lRk): Vídeo ensinando como identificar a diferença de um aparelho de TV Box MXQ-PRO verdadeiro do falso de uma maneira bem simples.
+    
   * Especificações do modelo utilizado:
   
     * Rockchip rk3228A 4-core ARMv7
     * eMCP com 1GB de RAM e 8GB de armazenamento
-    * Chipset WiFi: SSV6051P
-    ```
-    model name	: ARMv7 Processor rev 5 (v7l)
-    BogoMIPS	: 35.29
-    Features	: half thumb fastmult vfp edsp thumbee neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm 
-    CPU implementer	: 0x41
-    CPU architecture: 7
-    CPU variant	: 0x0
-    CPU part	: 0xc07
-    CPU revision	: 5
-    ```
-  ![foto_tvbox_aberta.jpeg](./files/foto_tvbox_aberta.jpeg)
+    * Chipset WiFi: SSV6251P
+    ![foto_tvbox_aberta.jpeg](./files/foto_tvbox_aberta.jpeg)
   
 * Cartão de memória microSD
 * Cabo de rede Ethernet ou monitor de video e teclado
 * Leitor de cartão de memória para PC
-* Linux (utilizamos o Ubuntu 22.10)
+* Linux (utilizamos uma versão Debian bookworm)
 * `Status` atual:
 | Recurso | Condição |
 | :---         |     :---:      |
@@ -45,14 +34,14 @@ Lista de material utilizado:
 | rede | Funcionando 100Mbps|
 | infra-vermelho | Funcionando - precisa configurar um mapeamento|
 | usb 2.0 | Funcionando |
-| saída audio | Não testada |
+| saída audio | Funcionando |
 | saída AV | Não testada |
 
 ### Preparação inicial
 * Faça download dos arquivos:
   * [balenaEtcher](https://www.balena.io/etcher#download-etcher)
-  * [MULTITOOL](https://users.armbian.com/jock/rk322x/multitool/multitool.img.xz) ou no [drive](https://drive.google.com/file/d/1jPY6odA08TMJTT0_ecXJllbDcL3JKvuz/view?usp=drive_link)
-  * [Imagem](https://drive.google.com/file/d/1RXTVMk07d8pVUPnz66Lop48093ZaQMXU/view?usp=sharing). Montamos esta versão com o [Armbian](https://github.com/armbian/community/) para rk322x, incluindo alguns pacotes educacionais. A versão utilizada do Armbian está no [drive](https://drive.google.com/drive/folders/1e4TiLbqWj8Yj2bcLT5fBhs6omHIN_e7u?usp=sharing).
+  * [MULTITOOL](https://users.armbian.com/jock/rk322x/multitool/multitool.img.xz) ou no [drive](https://drive.google.com/)
+  * [Imagem](https://drive.google.com/file/d/1RXTVMk07d8pVUPnz66Lop48093ZaQMXU/view?usp=sharing). Montamos esta versão com o [Armbian](https://github.com/armbian/community/) para rk322x, incluindo alguns pacotes educacionais. A versão utilizada do Armbian está no [drive](https://drive.google.com/drive).
 
 * Em seguida:
     * Abra o balenaEtcher para gravar o multitool no cartão microSD. Talvez seja necessário dar permissão de execução para o programa, para isso, dentro da pasta Downloads do seu computador use:
