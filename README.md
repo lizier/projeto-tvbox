@@ -1,13 +1,9 @@
-# projeto-tvbox
+# Projeto BemTeVi
 Repositório do Projeto de Extensão da UFSCar-Sorocaba sobre TVBox
 
 ## Modelos recebidos
-* Tx9 - Materiais criados
-	* [tx9-instalacao-armbian-ssh](./tx9-instalacao-armbian-ssh) - Tutorial de instalação do Armbian;
-	* [tx9-hotspot](./tx9-hotspot) - Criação de um ponto de acesso Wi-Fi;
-	* [gambi-temporaria](./gambi-temporaria) - Script para possibilitar utilização do wifi na tv-box;
-	* [tutorial_office](./tutorial_office) - Tutorial para criar ícones na área de trabalho para a extensão Office Editing for Docs, Sheets & Slides;
-	* [capibian_instalacao](./capibian_instalacao) - Como configurar um sitema gráfico e leve a partir do Armbian.
+* [TX9](./Armbian-TX9) - Imagem Armbian para a TX9;
+* [MXQ-PRO](./Armbian-MXQ) - Imagem Armbian para a MXQ-PRO 5G e MXQ-PRO 4K;
 
 ## Contatos:
 * Mario ( lizier _at_ ufscar _dot_ br )
