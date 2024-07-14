@@ -32,29 +32,17 @@ Lista de material utilizado:
 
 | Recurso | `Status` |
 | :---         |     :---:      |
-| wifi | Funcionando |
-| hdmi | Funcionando |
-| leitor de cartão | Funcionando |
-| rede | Funcionando 100Mbps|
-| infra-vermelho | Funcionando - precisa configurar um mapeamento|
-| usb 2.0 | Funcionando |
-| saída audio | Não testada |
-| saída AV | Não testada |
-| bluetooth | 
-
-| Recurso | `Status` |
-| :---         |     :---:      |
-| wifi | {color:green}Funcionando 2.4GHz |
-| hdmi | Funcionando |
-| gpu | {color:Red} Não funciona |
-| leitor de cartão | Funcionando |
-| rede | Funcionando 100Mbps|
-| infra-vermelho | Funcionando - precisa configurar um mapeamento pelo LIRC|
-| usb 2.0 | Funcionando |
-| saída audio analógica | {color:yellow} Não testada |
-| saída AV | Não testada |
-| saída audio HDMI | Não testada |
-| bluetooth | Não funciona |
+| wifi | `<code style="color : green">Funcionando</code>` - 2.4GHz |
+| hdmi | `<code style="color : green">Funcionando</code>` |
+| gpu | `<code style="color : red">Não funciona</code>` |
+| leitor de cartão | `<code style="color : green">Funcionando</code>` |
+| rede | `<code style="color : green">Funcionando</code>` - 100Mbps |
+| infra-vermelho | `<code style="color : green">Funcionando</code>` - precisa configurar um mapeamento pelo LIRC|
+| usb 2.0 | `<code style="color : green">Funcionando</code>` |
+| saída audio analógica | `<code style="color : yellow">Não testado</code>` |
+| saída AV | `<code style="color : yellow">Não testado</code>` |
+| saída audio HDMI | `<code style="color : yellow">Não testado</code>` |
+| bluetooth | `<code style="color : red">Não funciona</code>` |
 
 ### Preparação inicial
 * Faça download dos arquivos:
