@@ -19,28 +19,14 @@ Lista de material utilizado:
         * eMCP com 1GB de RAM e 8GB de armazenamento
         * Chipset WiFi: SSV6252P
         
-        |Fechada|Aberta|
+        <!-- |Fechada|Aberta|
         |---|---|
-        |![foto_tvbox_fechada.jpeg](./files/foto_tvbox_fechada.jpeg)|![foto_tvbox_aberta.jpeg](./files/foto_tvbox_aberta.jpeg)|
+        |![foto_tvbox_fechada.jpeg](./files/foto_tvbox_fechada.jpeg)|![foto_tvbox_aberta.jpeg](./files/foto_tvbox_aberta.jpeg)| --!>
   
 * Cartão de memória microSD
 * Cabo de rede Ethernet ou monitor de video e teclado
 * Leitor de cartão de memória para PC
 * Linux (utilizamos uma versão Debian bookworm)
-
-| Recurso | `Status` |
-| :---         |     :---:      |
-| wifi | {color:green}Funcionando 2.4GHz e 5GHz |
-| hdmi | Funcionando |
-| gpu | Funcionando o básico |
-| leitor de cartão | Funcionando |
-| rede | Funcionando 100Mbps|
-| infra-vermelho | Funcionando - precisa configurar um mapeamento pelo LIRC|
-| usb 2.0 | Funcionando |
-| saída audio analógica | {color:yellow} Não testada |
-| saída AV | Não testada |
-| saída audio HDMI | Não testada |
-| bluetooth | Não funciona |
 
 | Recurso | `Status` | Observação |
 | :--- | :---: | :--- |
@@ -52,7 +38,7 @@ Lista de material utilizado:
 | infra-vermelho | :white_check_mark: | precisa configurar um mapeamento pelo LIRC |
 | usb 2.0 | :white_check_mark: | |
 | saída audio analógica | :large_orange_diamond: | detectado mas não testado |
-| saída AV | :large_orange_diamond: | detectado mas não testado |
+| saída AV | :large_orange_diamond: | não testado |
 | saída audio HDMI | :large_orange_diamond: | detectado mas não testado |
 | bluetooth | :red_circle: | aparentemente não suportado pelo ssv6x5x | 
 

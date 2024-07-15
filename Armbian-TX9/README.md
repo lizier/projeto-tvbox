@@ -21,9 +21,9 @@ Lista de material utilizado:
     * eMCP com 1GB de RAM e 8GB de armazenamento
     * Chipset WiFi: SSV6051P
     
-    |Fechada|Aberta|
+    <!-- |Fechada|Aberta|
     |---|---|
-    |![foto_tvbox_fechada.jpeg](./files/foto_tvbox_fechada.jpeg)|![foto_tvbox_aberta.jpeg](./files/foto_tvbox_aberta.jpeg)|
+    |![foto_tvbox_fechada.jpeg](./files/foto_tvbox_fechada.jpeg)|![foto_tvbox_aberta.jpeg](./files/foto_tvbox_aberta.jpeg)| --!>
     
 * Cartão de memória microSD
 * Cabo de rede Ethernet ou monitor de video e teclado
@@ -34,13 +34,13 @@ Lista de material utilizado:
 | :--- | :---: | :--- |
 | wifi | :white_check_mark: | 2.4GHz com o módulo: ssv6051 |
 | hdmi | :white_check_mark: | overlays: led-conf5 e led-conf5 |
-| gpu | :red_circle: | sem driver da rockchip para este kernel - mudar para o 4.4 :cold_sweat: |
+| gpu | :red_circle: | sem driver da rockchip para este kernel - mudar para o 4.4? :cold_sweat: |
 | leitor de cartão | :white_check_mark: | |
 | rede | :white_check_mark: | 100Mbps |
 | infra-vermelho | :white_check_mark: | precisa configurar um mapeamento pelo LIRC |
 | usb 2.0 | :white_check_mark: | |
 | saída audio analógica | :large_orange_diamond: | detectado mas não testado |
-| saída AV | :large_orange_diamond: | detectado mas não testado |
+| saída AV | :large_orange_diamond: | não testado |
 | saída audio HDMI | :large_orange_diamond: | detectado mas não testado |
 | bluetooth | :red_circle: | aparentemente não suportado pelo ssv6051 | 
 
