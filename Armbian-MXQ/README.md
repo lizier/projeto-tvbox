@@ -42,6 +42,20 @@ Lista de material utilizado:
 | saída audio HDMI | Não testada |
 | bluetooth | Não funciona |
 
+| Recurso | `Status` | Observação |
+| :--- | :---: | :--- |
+| wifi | :white_check_mark: | 2.4GHz e 5GHz com o módulo: ssv6x5x |
+| hdmi | :white_check_mark: | overlay: led-conf7 |
+| gpu | :white_check_mark: | módulo: lima |
+| leitor de cartão | :white_check_mark: | |
+| rede | :white_check_mark: | 100Mbps |
+| infra-vermelho | :white_check_mark: | precisa configurar um mapeamento pelo LIRC |
+| usb 2.0 | :white_check_mark: | |
+| saída audio analógica | :large_orange_diamond: | detectado mas não testado |
+| saída AV | :large_orange_diamond: | detectado mas não testado |
+| saída audio HDMI | :large_orange_diamond: | detectado mas não testado |
+| bluetooth | :red_circle: | aparentemente não suportado pelo ssv6x5x | 
+
 ### Preparação inicial
 * Faça download dos arquivos:
   * [balenaEtcher](https://www.balena.io/etcher#download-etcher)

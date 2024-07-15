@@ -31,18 +31,18 @@ Lista de material utilizado:
 * Linux (utilizamos o Ubuntu Jammy)
 
 | Recurso | `Status` | Observação |
-| :---         |     :---:      | :---
-| wifi | `#ff0000` Funcionando | módulo ssv6051 - 2.4GHz |
-| hdmi | `#ff0000` Funcionando | |
-| gpu | :red_circle: | Não funciona |
-| leitor de cartão | <code style="color : green">Funcionando</code> | |
-| rede | <code style="color : green">Funcionando</code> - 100Mbps | |
-| infra-vermelho | <code style="color : green">Funcionando</code> - precisa configurar um mapeamento pelo LIRC|  |
-| usb 2.0 | <code style="color : green">Funcionando</code> | |
-| saída audio analógica | <code style="color : yellow">Não testado</code> | |
-| saída AV | <code style="color : yellow">Não testado</code> | |
-| saída audio HDMI | <code style="color : yellow">Não testado</code> | |
-| bluetooth | <code style="color : red">Não funciona</code> | |
+| :--- | :---: | :--- |
+| wifi | :white_check_mark: | 2.4GHz com o módulo: ssv6051 |
+| hdmi | :white_check_mark: | overlays: led-conf5 e led-conf5 |
+| gpu | :red_circle: | sem driver da rockchip para este kernel - mudar para o 4.4 :cold_sweat: |
+| leitor de cartão | :white_check_mark: | |
+| rede | :white_check_mark: | 100Mbps |
+| infra-vermelho | :white_check_mark: | precisa configurar um mapeamento pelo LIRC |
+| usb 2.0 | :white_check_mark: | |
+| saída audio analógica | :large_orange_diamond: | detectado mas não testado |
+| saída AV | :large_orange_diamond: | detectado mas não testado |
+| saída audio HDMI | :large_orange_diamond: | detectado mas não testado |
+| bluetooth | :red_circle: | aparentemente não suportado pelo ssv6051 | 
 
 ### Preparação inicial
 * Faça download dos arquivos:
