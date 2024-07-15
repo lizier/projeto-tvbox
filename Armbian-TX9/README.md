@@ -30,19 +30,19 @@ Lista de material utilizado:
 * Leitor de cartão de memória para PC
 * Linux (utilizamos o Ubuntu Jammy)
 
-| Recurso | `Status` |
-| :---         |     :---:      |
-| wifi | `#ff0000` Funcionando - 2.4GHz |
-| hdmi | `#ff0000` Funcionando</code> |
-| gpu | <span style="color : #FF0000;">Não funciona</span> |
-| leitor de cartão | <code style="color : green">Funcionando</code> |
-| rede | <code style="color : green">Funcionando</code> - 100Mbps |
-| infra-vermelho | <code style="color : green">Funcionando</code> - precisa configurar um mapeamento pelo LIRC|
-| usb 2.0 | <code style="color : green">Funcionando</code> |
-| saída audio analógica | <code style="color : yellow">Não testado</code> |
-| saída AV | <code style="color : yellow">Não testado</code> |
-| saída audio HDMI | <code style="color : yellow">Não testado</code> |
-| bluetooth | <code style="color : red">Não funciona</code> |
+| Recurso | `Status` | Observação |
+| :---         |     :---:      | :---
+| wifi | `#ff0000` Funcionando | módulo ssv6051 - 2.4GHz |
+| hdmi | `#ff0000` Funcionando | |
+| gpu | :red_circle: | Não funciona |
+| leitor de cartão | <code style="color : green">Funcionando</code> | |
+| rede | <code style="color : green">Funcionando</code> - 100Mbps | |
+| infra-vermelho | <code style="color : green">Funcionando</code> - precisa configurar um mapeamento pelo LIRC|  |
+| usb 2.0 | <code style="color : green">Funcionando</code> | |
+| saída audio analógica | <code style="color : yellow">Não testado</code> | |
+| saída AV | <code style="color : yellow">Não testado</code> | |
+| saída audio HDMI | <code style="color : yellow">Não testado</code> | |
+| bluetooth | <code style="color : red">Não funciona</code> | |
 
 ### Preparação inicial
 * Faça download dos arquivos:
