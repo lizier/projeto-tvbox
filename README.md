@@ -3,7 +3,7 @@ Repositório do Projeto de Extensão da UFSCar-Sorocaba sobre TVBox
 
 ## Modelos recebidos
 * [TX9](./Armbian-TX9) - Imagem Armbian para a TX9;
-* [MXQ-PRO](./Armbian-MXQ) - Imagem Armbian para a MXQ-PRO 5G e MXQ-PRO 4K;
+* [MXQ-PRO](./Armbian-MXQ) - Imagem Armbian para a MXQ-PRO e MX9;
 
 ## Contatos:
 * Mario ( lizier _at_ ufscar _dot_ br )
