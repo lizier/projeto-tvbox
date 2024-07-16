@@ -1,4 +1,4 @@
-## Versão UFSCar-Sorocaba do Armbian para a MXQ-PRO 5G MXQ-PRO 4K - Projeto BemTeVi
+## Versão UFSCar-Sorocaba do Armbian para a MXQ-PRO e MX9 - Projeto BemTeVi
 
 # [Download](https://drive.google.com)
 
@@ -19,9 +19,9 @@ Lista de material utilizado:
         * eMCP com 1GB de RAM e 8GB de armazenamento
         * Chipset WiFi: SSV6252P
         
-        <!-- |Fechada|Aberta|
+        |Fechada|Aberta|
         |---|---|
-        |![foto_tvbox_fechada.jpeg](./files/foto_tvbox_fechada.jpeg)|![foto_tvbox_aberta.jpeg](./files/foto_tvbox_aberta.jpeg)| --!>
+        |![foto_tvbox_fechada.jpeg](./files/foto_tvbox_fechada.jpeg)|![foto_tvbox_aberta.jpeg](./files/foto_tvbox_aberta.jpeg)|
   
 * Cartão de memória microSD
 * Cabo de rede Ethernet ou monitor de video e teclado
