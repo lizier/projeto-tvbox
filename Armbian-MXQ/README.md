@@ -21,7 +21,7 @@ Lista de material utilizado:
         
         |MXQ-PRO|MX9|
         |---|---|
-        |![foto_mxq_fechada.jpeg](./files/foto_mxq_fechada.jpeg)|![foto_mx9_fechada.jpeg](./files/foto_mx9_fechada.jpeg)|
+        |![foto_mxq_fechada.jpeg](./files/foto_mxq_fechada.jpeg | width=300)|![foto_mx9_fechada.jpeg](./files/foto_mx9_fechada.jpeg| width=400)|
         |![foto_mxq_aberta_frente.jpeg](./files/foto_mxq_aberta_frente.jpeg)|![foto_mx9_aberta_frente.jpeg](./files/foto_mx9_aberta_frente.jpeg)|
         |![foto_mxq_aberta_verso.jpeg](./files/foto_mxq_aberta_verso.jpeg)|![foto_mx9_aberta_verso.jpeg](./files/foto_mx9_aberta_verso.jpeg)|
   
