@@ -17,11 +17,13 @@ Lista de material utilizado:
     * Especificações do modelo utilizado:  
         * Rockchip rk3228A 4-core ARMv7
         * eMCP com 1GB de RAM e 8GB de armazenamento
-        * Chipset WiFi: SSV6252P
+        * Chipset WiFi: SSV6256P
         
-        |Fechada|Aberta|
+        |MXQ-PRO|MX9|
         |---|---|
-        |![foto_tvbox_fechada.jpeg](./files/foto_tvbox_fechada.jpeg)|![foto_tvbox_aberta.jpeg](./files/foto_tvbox_aberta.jpeg)|
+        |![foto_mxq_fechada.jpeg](./files/foto_mxq_fechada.jpeg)|![foto_mx9_fechada.jpeg](./files/foto_mx9_fechada.jpeg)|
+        |![foto_mxq_aberta_frente.jpeg](./files/foto_mxq_aberta_frente.jpeg)|![foto_mx9_aberta_frente.jpeg](./files/foto_mx9_aberta_frente.jpeg)|
+        |![foto_mxq_aberta_verso.jpeg](./files/foto_mxq_aberta_verso.jpeg)|![foto_mx9_aberta_verso.jpeg](./files/foto_mx9_aberta_verso.jpeg)|
   
 * Cartão de memória microSD
 * Cabo de rede Ethernet ou monitor de video e teclado
