@@ -21,9 +21,11 @@ Lista de material utilizado:
     * eMCP com 1GB de RAM e 8GB de armazenamento
     * Chipset WiFi: SSV6051P
     
-    <!-- |Fechada|Aberta|
-    |---|---|
-    |![foto_tvbox_fechada.jpeg](./files/foto_tvbox_fechada.jpeg)|![foto_tvbox_aberta.jpeg](./files/foto_tvbox_aberta.jpeg)| --!>
+    |TX9|
+    |---|
+    |![foto_tx9_fechada.jpg](./files/foto_tx9_fechada.jpg)|
+    |![foto_tx9_aberta_frente.jpg](./files/foto_tx9_aberta_frente.jpg)|
+    |![foto_tx9_aberta_verso.jpg](./files/foto_tx9_aberta_verso.jpg)|
     
 * Cartão de memória microSD
 * Cabo de rede Ethernet ou monitor de video e teclado
