@@ -1,7 +1,7 @@
 # Projeto BemTeVi
 Repositório do Projeto de Extensão da UFSCar-Sorocaba sobre TVBox
 
-![logos](./logos.jpg)
+![logos](./logos.png)
 
 ## Modelos recebidos
 * [TX9](./Armbian-TX9) - Imagem Armbian para a TX9;
