@@ -1,6 +1,6 @@
 ## Versão UFSCar-Sorocaba do Armbian para a MXQ-PRO e MX9 - Projeto BemTeVi
 
-# [Download](https://drive.google.com)
+# [Download]([https://drive.google.com](https://drive.google.com/file/d/1CJywVhZO3QaW2yA1dUl1464v20l86U3K/view?usp=sharing))
 
 
 ## Instruções básicas
@@ -48,8 +48,8 @@ Lista de material utilizado:
 * Faça download dos arquivos:
   * [balenaEtcher](https://www.balena.io/etcher#download-etcher)
   * [MULTITOOL](https://users.armbian.com/jock/rk322x/multitool/multitool.img.xz) ou no [drive](https://drive.google.com/file/d/171dTZnzH7SuXP05Jb02D3EdcoAz8H8At/view?usp=sharing)
-  * [Imagem](https://drive.google.com/).
-    * Montamos esta versão com o [Armbian](https://github.com/armbian/community/) para rk322x, incluindo alguns pacotes educacionais. A versão utilizada do Armbian está no [drive](https://drive.google.com/drive).
+  * [Imagem]([https://drive.google.com/](https://drive.google.com/file/d/1CJywVhZO3QaW2yA1dUl1464v20l86U3K/view?usp=sharing)).
+    * Montamos esta versão com o [Armbian](https://github.com/armbian/community/) para rk322x, incluindo alguns pacotes educacionais. A versão utilizada do Armbian está no [drive](https://drive.google.com/file/d/1yN_7W0RdHs12I0Rgp6QkX-NHljiacW4b/view?usp=sharing).
 
 * Em seguida:
     * Abra o balenaEtcher para gravar o multitool no cartão microSD. Talvez seja necessário dar permissão de execução para o programa, para isso, dentro da pasta Downloads do seu computador use:
