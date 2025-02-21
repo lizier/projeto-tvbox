@@ -58,7 +58,7 @@ Lista de material utilizado:
     ```
     Com o balenaEtcher aberto, escolha o arquivo do multitool em `Flash from file` e depois a mídia que será usada em `Select Target` (no nosso caso o cartão microSD), por fim, basta clicar em `Flash`.
     
-    * No cartão microSD haverá uma partição chamada `MULTITOOL`, abra ela e copie a Imagem do Armbian para dentro da pasta `backups`, sem descompactar o arquivo.
+    * No cartão microSD haverá uma partição chamada `MULTITOOL`, abra ela e copie a Imagem do Armbian para dentro da pasta `backups`, sem descompactar o arquivo. Caso não tenha espaço suficiente na partição, recomendamos colocar o cartão na tvbox para um primeiro boot (a partição deverá se expandir para todo o cartão), assim será possível copiar a imagem do Armbian.
     * Desmonte adequadamente o cartão e insira na tvbox desligada.
     * Ligue a tvbox com o cartão microSD inserido e siga os passos a seguir.
 
@@ -66,7 +66,7 @@ Lista de material utilizado:
 
 Antes de instalar a imagem, você pode querer fazer um backup, este é o momento. 
 
-Para gravar a imagem, inicialize a tvbox com o cartão microSD. Aguarde a disponibilização do terminal e inicie o `MULTITOOL` pelo comando `multitool.sh`. Quando aparecer o menu, selecione a opção `restore flash`. Siga os passos para gravar a imagem. Não é necessário descompactar, o arquivo `gz` pode ser salvo diretamente na pasta `backups`.
+Para gravar a imagem, inicialize a tvbox com o cartão microSD. Aguarde a disponibilização do terminal e inicie o `MULTITOOL` pelo comando `multitool.sh`. Quando aparecer o menu, selecione a opção `restore flash`. Siga os passos para gravar a imagem. Não é necessário descompactar, o arquivo `gz` pode ser salvo diretamente na pasta `backups`. Se aparecer o logo do android no início do boot, significa que a tvbox não reconheceu o multitool. Pode ser devido a compatibilidade do cartão, problemas no leitor da tvbox, ou mesmo versão antiga do multitool. Recomendamos testar com outros cartões e com outras tvboxs.
 
 
 ![multitool-burn3.png](./files/multitool.png)
